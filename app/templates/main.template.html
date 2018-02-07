@@ -1,68 +1,68 @@
 <!-- Coffee-Dispenser UI -->
 
 <div>
-	<div class="navbar navbar-default">
+    <div class="navbar navbar-default">
 
-		<!-- Header -->
-		<div class="navbar-header">
-			<h2 class="navbar-text">Coffee-Dispenser</h2>
-		</div>
+        <!-- Header -->
+        <div class="navbar-header">
+            <h2 class="navbar-text">Coffee-Dispenser</h2>
+        </div>
 
-	</div>
+    </div>
 
-	<!-- Main content -->
-	<div class="jumbotron" 
-		 id="main-content">
-		<div class="row">
+    <!-- Main content -->
+    <div class="jumbotron" 
+         id="main-content">
+        <div class="row">
 
-			<!-- Inventory list -->
-			<div class="col-lg-4">
-				<div class="panel" 
-					 id="inventory">
-					<div class="panel-heading">Inventory</div>
+            <!-- Inventory list -->
+            <div class="col-lg-4">
+                <div class="panel" 
+                     id="inventory">
+                    <div class="panel-heading">Inventory</div>
 
-				  	<div class="panel-body">
-				    	<ul class="list-group">
-							<li ng-repeat="item in inventory" 
-								class="list-group-item">
-								{{item.name}} <span id="inv-qty">{{item.units}}</span>
-							</li>
-						</ul>
-				  	</div>
+                    <div class="panel-body">
+                        <ul class="list-group">
+                            <li ng-repeat="item in inventory" 
+                                class="list-group-item">
+                                {{item.name}} <span id="inv-qty">{{item.units}}</span>
+                            </li>
+                        </ul>
+                    </div>
 
-				</div>
-				<button id="restock" 
-					    class="btn btn-default btn-lg" 
-					    ng-click="restock()">Restock</button>
-			</div>
+                </div>
+                <button id="restock" 
+                        class="btn btn-default btn-lg" 
+                        ng-click="restock()">Restock</button>
+            </div>
 
-			<!-- Menu list -->
-			<div class="col-lg-8">
-				<div class="panel" 
-					 id="menu">
-					<div class="panel-heading">Menu</div>
+            <!-- Menu list -->
+            <div class="col-lg-8">
+                <div class="panel" 
+                     id="menu">
+                    <div class="panel-heading">Menu</div>
 
-				  	<div class="panel-body" 
-				  	 	 id="menu-items">
-						<button 
-							ng-repeat="item in menu" 
-							ng-disabled="item.outOfStock" 
-							class="btn btn-default menu-btn" 
-							ng-click="purchaseItem($index)">
-							
-							{{item.name}}<br/> {{item.cost | currency}}
-						</button>
-				  	</div>
+                    <div class="panel-body" 
+                         id="menu-items">
+                        <button 
+                            ng-repeat="item in menu" 
+                            ng-disabled="item.outOfStock" 
+                            class="btn btn-default menu-btn" 
+                            ng-click="purchaseItem($index)">
+                            
+                            {{item.name}}<br/> {{item.cost | currency}}
+                        </button>
+                    </div>
 
-				</div>
+                </div>
 
-				<!-- Output bar -->
-				<div class="jumbotron" 
-					 id="output">
-					{{output}}
-				</div>
-			</div>
+                <!-- Output bar -->
+                <div class="jumbotron" 
+                     id="output">
+                    {{output}}
+                </div>
+            </div>
 
-		</div>
-	</div>
+        </div>
+    </div>
 </div>

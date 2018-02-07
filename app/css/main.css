@@ -1,91 +1,91 @@
 
 #main-content {
-	border-radius: 0px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	font-size: 18px;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	background-color: #D5C0A9;
+    border-radius: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 18px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #D5C0A9;
 }
 
 /*
  * Inventory styles
  */
 #inventory li {
-	padding: 5.7px  20px 5.7px 20px;
+    padding: 5.7px  20px 5.7px 20px;
 }
 
 #inv-qty {
-	float: right;
+    float: right;
 }
 
 /*
  * Menu item styles
  */
 #menu-items {
-	width: 500px;
-	margin: auto;
+    width: 500px;
+    margin: auto;
 }
 
 .menu-btn {
-	background-color: #D5C0A9;
-	border-radius: 5px;
-	width: 200px;
-	height: 100px;
-	font-size: 18px;
-	margin: 10px;
-	padding: 25px;
+    background-color: #D5C0A9;
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+    font-size: 18px;
+    margin: 10px;
+    padding: 25px;
 }
 
 .menu-btn:hover, 
 #restock:hover {
-	background-color: #C2A385;
+    background-color: #C2A385;
 }
 
 /*
  * Output bar styles
  */
 #output {
-	height: 57px;
-	padding: 0px;
-	line-height: 57px;
-	text-align: center;
-	font-size: 25px;
+    height: 57px;
+    padding: 0px;
+    line-height: 57px;
+    text-align: center;
+    font-size: 25px;
 }
 
 /*
  * Restock button styles
  */
 #restock {
-	width: 325px;
-	height: 57px;
-	background-color: #F8F4F0;
+    width: 325px;
+    height: 57px;
+    background-color: #F8F4F0;
 }
 
 /*
  * Nav bar styles
  */
 .navbar {
-	background-color: #77460E;
-	margin-bottom: 0px;
-	border-radius: 0px;
+    background-color: #77460E;
+    margin-bottom: 0px;
+    border-radius: 0px;
 }
 
 .navbar-default .navbar-text {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 /*
  * Panel styles
  */
 .panel-heading {
-	background-color: #77460E;
-	color: #FFFFFF;
+    background-color: #77460E;
+    color: #FFFFFF;
 }
 
 .panel, 
 #output {
-	border: 0px;
-	background-color: #F8F4F0;
+    border: 0px;
+    background-color: #F8F4F0;
 }
