@@ -1,0 +1,12 @@
+{
+  "name": "coffee-dispenser",
+  "version": "1.0.0",
+  "description": "Automatic Coffee Dispensing Machine Simulator",
+  "author": "Tyler Diack",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "connect": "^3.5.0",
+    "serve-static": "^1.11.1"
+  }
+}
